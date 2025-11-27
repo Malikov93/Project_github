@@ -634,6 +634,10 @@ video {
   width: 50%;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
@@ -734,6 +738,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -762,6 +771,14 @@ video {
   font-size: 20px;
 }
 
+.text-\[50\%\] {
+  font-size: 50%;
+}
+
+.text-\[100\%\] {
+  font-size: 100%;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -780,12 +797,32 @@ video {
   color: rgb(10 132 255 / var(--tw-text-opacity, 1));
 }
 
+.text-\[100\] {
+  color: 100;
+}
+
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
   }
 
+  .lg\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:text-\[50\%\] {
+    font-size: 50%;
+  }
+
+  .lg\:text-\[50\] {
+    color: 50;
   }
 }
